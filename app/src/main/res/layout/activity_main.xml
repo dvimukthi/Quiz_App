@@ -6,11 +6,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="@drawable/kotlin"
+    android:orientation="vertical"
     android:gravity="center"
+    android:padding="5dp"
     >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Quiz App"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
