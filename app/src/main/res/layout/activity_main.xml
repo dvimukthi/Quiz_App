@@ -58,9 +58,17 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Your Name"/>
+                    android:hint="Enter Your Name"
+                    android:textColorHint="#605E5E"/>
 
             </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Next"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
