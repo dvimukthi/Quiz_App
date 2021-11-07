@@ -9,7 +9,7 @@
     android:background="@drawable/kotlin"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="5dp"
+    android:padding="7dp"
     >
     <TextView
         android:layout_width="match_parent"
@@ -25,13 +25,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="5dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         app:cardElevation="5dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="5dp">
+            android:padding="10dp">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -66,8 +66,10 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:textStyle="bold"
                 android:textSize="15sp"
+                android:background="#FF9800"
                 android:text="Next"/>
 
         </LinearLayout>
